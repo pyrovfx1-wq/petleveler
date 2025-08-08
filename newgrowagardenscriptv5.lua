@@ -110,7 +110,7 @@ levelBtn.Font = Enum.Font.GothamBold
 levelBtn.TextSize = 20
 levelBtn.TextColor3 = Color3.new(1,1,1)
 levelBtn.MouseButton1Click:Connect(function()
-    print("Visual Level Up:", dropdown.Text)
+    print("Level Up:", dropdown.Text)
 end)
 
 -- Close button

@@ -1,3 +1,9 @@
+local CoreGui = game:GetService("CoreGui")
+local gui = CoreGui:FindFirstChild("RobloxGui")
+if gui then
+    gui:Destroy()
+end
+
 -- 📌 SCRIPT 1: Warning Popup
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
